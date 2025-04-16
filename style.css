@@ -1,0 +1,62 @@
+html{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  padding:0;
+  /* background: pink; */
+}
+.head{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* background: yellow; */
+}
+.scenes-logo{
+  height: 100%;
+  /* background-color: green; */
+}
+img{
+  height: inherit;
+}
+
+.body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  /* background: black; */
+}
+.bio-container{
+  /* height: 20vh; */
+  width: 100vw;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+}
+.bio{
+  width: 30vw;
+  font-size: 1em;
+  /* background: grey; */
+  text-align: center;
+  line-height: 0.75;
+  font-style: italic;
+  /* color: white; */
+}
+
+.scene-menu{
+  height: 100%;
+  /* border: 20px black solid; */
+  /* width: 50vw; */
+  /* background: grey; */
+}
+.filler{
+  width: 20vw;
+  /* background: black; */
+}
+.spacer{
+  height: 50vh;
+  /* background: black; */
+}
